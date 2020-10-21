@@ -15,12 +15,13 @@ class  Quadrilateral
 private:
     int a,b,c,d,h,side;
 public:
-    Quadrilateral(int l, int m, int n, int o)
+    Quadrilateral(int l, int m, int n, int o, int p)
     {
         a=l;
         b=m;
         c=n;
         d=o;
+        h=p;
     }
      Quadrilateral(int l, int m)
     {
